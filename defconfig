@@ -418,7 +418,8 @@ CONFIG_TIMA=y
 CONFIG_TIMA_RKP=y
 # CONFIG_RKP_KDP is not set
 # CONFIG_TIMA_TEST_INFRA is not set
-# CONFIG_BUILD_ARM64_APPENDED_DTB_IMAGE is not set
+CONFIG_BUILD_ARM64_APPENDED_DTB_IMAGE=y
+CONFIG_BUILD_ARM64_APPENDED_DTB_IMAGE_NAMES="exynos7870-on7xelte_kor_skt_00 exynos7870-on7xelte_kor_skt_01 exynos7870-on7xelte_kor_skt_05"
 
 #
 # Userspace binary formats
